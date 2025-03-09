@@ -1,0 +1,95 @@
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.about-page h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.about-section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-section h2 {
+  color: #ef5350;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.about-section p {
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.tech-list,
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tech-list li {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.tech-name {
+  font-weight: bold;
+  color: #333;
+  min-width: 150px;
+  background-color: #f5f5f5;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.tech-description {
+  color: #666;
+}
+
+.feature-list li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+  color: #444;
+}
+
+.feature-list li::before {
+  content: "•";
+  color: #ef5350;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-page h1 {
+    font-size: 1.8rem;
+  }
+  
+  .about-section h2 {
+    font-size: 1.3rem;
+  }
+  
+  .tech-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .tech-name {
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+  }
+} 

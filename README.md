@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# PokéExplorer - React Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PokéExplorer is a React-based web application that allows users to browse, search, and save their favorite Pokémon. This project was built as part of the SBA 320H React Web Application Project.
 
-## Available Scripts
+![PokéExplorer Screenshot](screenshot.png)
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+[View the live application on Netlify](#) (Link will be updated after deployment)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Browse Pokémon**: View a paginated list of Pokémon from the Pokémon universe
+- **Search Functionality**: Search for specific Pokémon by name
+- **Detailed Information**: View comprehensive details about each Pokémon including stats, types, abilities, and more
+- **Favorites System**: Add and remove Pokémon from your favorites list
+- **Responsive Design**: Fully responsive interface that works on desktop and mobile devices
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: Frontend JavaScript library for building the user interface
+- **Redux Toolkit**: State management for predictable state updates and global store
+- **React Router**: Navigation and routing between different pages
+- **Axios**: Promise-based HTTP client for making API requests
+- **PokeAPI**: External API providing comprehensive Pokémon data
+- **CSS3**: Styling with flexbox and grid for responsive design
+- **Netlify**: Hosting platform for the deployed application
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/pokeexplorer.git
+   cd pokeexplorer
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
+   ```
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Open your browser and navigate to `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+```
+src/
+├── app/
+│   └── store.js          # Redux store configuration
+├── components/
+│   ├── layout/           # Layout components (Header, Footer, etc.)
+│   └── pokemon/          # Pokemon-related components
+├── features/
+│   └── pokemon/          # Pokemon slice for Redux
+├── pages/                # Page components
+├── App.js                # Main application component
+└── index.js              # Application entry point
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## API Integration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project uses the [PokeAPI](https://pokeapi.co/), a free and open RESTful API that provides Pokémon data. The API does not require authentication, making it easy to use for educational projects.
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This application is deployed on Netlify. To deploy your own version:
 
-### Analyzing the Bundle Size
+1. Create a production build:
+   ```
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Deploy to Netlify:
+   - Sign up for a Netlify account
+   - Connect your GitHub repository or upload the build folder
+   - Configure your deployment settings
+   - Deploy!
 
-### Making a Progressive Web App
+## Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Filter Pokémon by type, generation, or other attributes
+- Compare stats between different Pokémon
+- User authentication to save favorites across devices
+- Team builder functionality to create balanced Pokémon teams
+- Dark mode theme option
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### `npm run build` fails to minify
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [PokeAPI](https://pokeapi.co/) for providing the Pokémon data
+- [Per Scholas](https://perscholas.org/) for the project requirements and guidance
