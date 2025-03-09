@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://plamengj.github.io/SBA-320H-React-Web-Application-Project/static/css/main.9fa3d587.css",
-    "main.js": "https://plamengj.github.io/SBA-320H-React-Web-Application-Project/static/js/main.88f6c127.js",
+    "main.js": "https://plamengj.github.io/SBA-320H-React-Web-Application-Project/static/js/main.e86271d3.js",
     "static/js/453.11fa5b10.chunk.js": "https://plamengj.github.io/SBA-320H-React-Web-Application-Project/static/js/453.11fa5b10.chunk.js",
     "index.html": "https://plamengj.github.io/SBA-320H-React-Web-Application-Project/index.html",
     "main.9fa3d587.css.map": "https://plamengj.github.io/SBA-320H-React-Web-Application-Project/static/css/main.9fa3d587.css.map",
-    "main.88f6c127.js.map": "https://plamengj.github.io/SBA-320H-React-Web-Application-Project/static/js/main.88f6c127.js.map",
+    "main.e86271d3.js.map": "https://plamengj.github.io/SBA-320H-React-Web-Application-Project/static/js/main.e86271d3.js.map",
     "453.11fa5b10.chunk.js.map": "https://plamengj.github.io/SBA-320H-React-Web-Application-Project/static/js/453.11fa5b10.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fa3d587.css",
-    "static/js/main.88f6c127.js"
+    "static/js/main.e86271d3.js"
   ]
 }
