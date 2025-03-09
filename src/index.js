@@ -1,4 +1,3 @@
-import './publicPath'; // Must be first import to set webpack public path correctly
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
