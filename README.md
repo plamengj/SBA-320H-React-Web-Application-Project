@@ -6,7 +6,7 @@ PokéExplorer is a React-based web application that allows users to browse, sear
 
 ## Live Demo
 
-[View the live application on Netlify](#) (Link will be updated after deployment)
+[View the live application on Netlify](https://pokeexplorer-ps.netlify.app/)
 
 ## Features
 
