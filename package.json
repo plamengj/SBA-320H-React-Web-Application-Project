@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && netlify deploy --prod",
     "predeploy": "npm run build",
-    "deploy:github": "gh-pages -d build"
+    "deploy:github": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
